@@ -2,11 +2,8 @@ package Tests;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.Set;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,10 +33,7 @@ public class SearchItem {
 
 		driver.get("https://salaryhero-qa-challenge.herokuapp.com");
 		driver.manage().window().maximize();
-		Set<Cookie> cookiesList =  driver.manage().getCookies();
-        for (Cookie getcookies :cookiesList) {
-            System.out.println(getcookies);
-        }
+		
 
 		try {
 			Thread.sleep(3000);
@@ -117,7 +111,7 @@ public class SearchItem {
 			String itemName4 = driver.findElement(By.xpath("//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/app-search-result/div/div/div[2]/mat-grid-list/div/mat-grid-tile[2]/div/mat-card/div[1]/div[2]/div[1]")).getText();
 			Assert.assertEquals(listItem.contains("banana"), itemName4.contains("apple"));
 
-			System.out.println("forth assertion passed");
+			System.out.println("fourth assertion passed");
 		}
 
 

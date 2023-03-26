@@ -4,9 +4,7 @@ package Tests;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import java.time.Duration;
-import java.util.Set;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,9 +25,6 @@ public class AddSingleItem {
 	private static WebDriver driver = null;
 	//	public static void main(String[] args) {
 
-
-	
-	
 	
 	
 	@BeforeTest
@@ -44,10 +39,7 @@ public class AddSingleItem {
 		driver.get("https://salaryhero-qa-challenge.herokuapp.com");
 		driver.manage().window().maximize();
 
-		driver.manage().deleteAllCookies();
-		Set<Cookie> cookiesListNew =  driver.manage().getCookies();
-		cookiesListNew.size();
-		System.out.println("The size is "+cookiesListNew);
+	
 
 
 		try {
@@ -84,7 +76,7 @@ public class AddSingleItem {
 
 		Login.textbox_email(driver).sendKeys("sharma.garima1007@gmail.com");
 
-		Login.textbox_password(driver).sendKeys("Owasp2023");
+		Login.textbox_password(driver).sendKeys("Owasp@2023");
 
 		Login.button_login(driver).sendKeys(Keys.RETURN);
 
@@ -100,7 +92,7 @@ public class AddSingleItem {
 	}
 	@Test
 	public void addItems() {
-		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/div[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/app-search-result[1]/div[1]/div[1]/div[2]/mat-grid-list[1]/div[1]/mat-grid-tile[2]/div[1]/mat-card[1]/div[1]"));
+		driver.findElement(By.xpath("/html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/app-search-result/div/div/div[2]/mat-grid-list/div/mat-grid-tile[2]/div/mat-card/div[2]/button")).click();
 		//code to add a single item into basket
 		driver.findElement(By.xpath("/html[1]/body[1]/app-root[1]/div[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/app-search-result[1]/div[1]/div[1]/div[2]/mat-grid-list[1]/div[1]/mat-grid-tile[2]/div[1]/mat-card[1]/div[2]/button[1]/span[1]/span[1]")).click();
 		try {

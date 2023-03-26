@@ -2,10 +2,7 @@ package Tests;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.Set;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -42,10 +39,7 @@ public class AddTwoItems {
 		driver.get("https://salaryhero-qa-challenge.herokuapp.com");
 		driver.manage().window().maximize();
 		
-		driver.manage().deleteAllCookies();
-		Set<Cookie> cookiesListNew =  driver.manage().getCookies();
-		cookiesListNew.size();
-		System.out.println("The size is "+cookiesListNew);
+		
 
 
 		try {

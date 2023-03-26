@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-26T11:50:59 ICT" name="Suite" finished-at="2023-03-26T11:52:53 ICT" duration-ms="114287">
+    <groups>
+    </groups>
+    <test started-at="2023-03-26T11:50:59 ICT" name="Test" finished-at="2023-03-26T11:52:53 ICT" duration-ms="114287">
+      <class name="Tests.AddTwoItems">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-26T11:51:15 ICT" name="setUp" finished-at="2023-03-26T11:51:28 ICT" duration-ms="13523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-26T11:52:12 ICT" name="login" finished-at="2023-03-26T11:52:16 ICT" duration-ms="3642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addItems()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-26T11:52:16 ICT" name="addItems" finished-at="2023-03-26T11:52:44 ICT" duration-ms="27735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-26T11:52:52 ICT" name="close_browser" finished-at="2023-03-26T11:52:53 ICT" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Tests.AddTwoItems -->
+      <class name="Tests.AddSingleItem">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-26T11:50:59 ICT" name="setUp" finished-at="2023-03-26T11:51:15 ICT" duration-ms="15934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-26T11:51:44 ICT" name="login" finished-at="2023-03-26T11:51:47 ICT" duration-ms="2917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addItems()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-26T11:51:47 ICT" name="addItems" finished-at="2023-03-26T11:52:12 ICT" duration-ms="25003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItems -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-26T11:52:52 ICT" name="close_browser" finished-at="2023-03-26T11:52:52 ICT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Tests.AddSingleItem -->
+      <class name="Tests.SearchItem">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.SearchItem@38cee291]" started-at="2023-03-26T11:51:28 ICT" name="setUp" finished-at="2023-03-26T11:51:44 ICT" duration-ms="16100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search()[pri:0, instance:Tests.SearchItem@38cee291]" started-at="2023-03-26T11:52:44 ICT" name="search" finished-at="2023-03-26T11:52:52 ICT" duration-ms="8460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Tests.SearchItem@38cee291]" started-at="2023-03-26T11:52:53 ICT" name="close_browser" finished-at="2023-03-26T11:52:53 ICT" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Tests.SearchItem -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

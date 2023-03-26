@@ -83,7 +83,7 @@ public class AddTwoItems {
 
 		Login.textbox_email(driver).sendKeys("sharma.garima1007@gmail.com");
 
-		Login.textbox_password(driver).sendKeys("Owaspjuice1@2023");
+		Login.textbox_password(driver).sendKeys("Owasp@2023");
 
 		Login.button_login(driver).sendKeys(Keys.RETURN);
 

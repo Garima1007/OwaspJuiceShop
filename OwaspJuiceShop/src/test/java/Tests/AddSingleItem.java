@@ -84,7 +84,7 @@ public class AddSingleItem {
 
 		Login.textbox_email(driver).sendKeys("sharma.garima1007@gmail.com");
 
-		Login.textbox_password(driver).sendKeys("Owaspjuice1@2023");
+		Login.textbox_password(driver).sendKeys("Owasp2023");
 
 		Login.button_login(driver).sendKeys(Keys.RETURN);
 

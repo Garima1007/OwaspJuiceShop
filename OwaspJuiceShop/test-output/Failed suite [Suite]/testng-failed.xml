@@ -11,6 +11,14 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- Tests.AddSingleItem -->
+      <class name="Tests.AddTwoItems">
+        <methods>
+          <include name="close_browser"/>
+          <include name="setUp"/>
+          <include name="addItems"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Tests.AddTwoItems -->
     </classes>
   </test> <!-- Test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

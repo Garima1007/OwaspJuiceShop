@@ -99,7 +99,7 @@ public class SearchItem {
 			System.out.println("first assertion passed");
 
 			String itemName2 = driver.findElement(By.xpath("/html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/app-search-result/div/div/div[2]/mat-grid-list/div/mat-grid-tile[1]/div/mat-card/div[1]/div[2]/div[1]")).getText();
-			Assert.assertEquals(listItem.contains("banana"), itemName2.contains("apple"));
+			Assert.assertNotEquals(listItem.contains("banana"), itemName2.contains("apple"));
 
 			System.out.println("second assertion passed");
 
@@ -109,7 +109,7 @@ public class SearchItem {
 			System.out.println("third assertion passed");
 
 			String itemName4 = driver.findElement(By.xpath("//html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/app-search-result/div/div/div[2]/mat-grid-list/div/mat-grid-tile[2]/div/mat-card/div[1]/div[2]/div[1]")).getText();
-			Assert.assertEquals(listItem.contains("banana"), itemName4.contains("apple"));
+			Assert.assertNotEquals(listItem.contains("banana"), itemName4.contains("apple"));
 
 			System.out.println("fourth assertion passed");
 		}

@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-31T12:02:55 IST" name="Suite" finished-at="2023-03-31T12:04:41 IST" duration-ms="106121">
+  <suite started-at="2023-03-31T12:29:30 IST" name="Default suite" finished-at="2023-03-31T12:29:53 IST" duration-ms="23059">
     <groups>
     </groups>
-    <test started-at="2023-03-31T12:02:55 IST" name="Test" finished-at="2023-03-31T12:04:41 IST" duration-ms="106121">
-      <class name="Tests.AddTwoItems">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-31T12:03:10 IST" name="setUp" finished-at="2023-03-31T12:03:22 IST" duration-ms="12150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-31T12:04:02 IST" name="login" finished-at="2023-03-31T12:04:05 IST" duration-ms="3024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="addItems()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-31T12:04:05 IST" name="addItems" finished-at="2023-03-31T12:04:32 IST" duration-ms="27377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItems -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:Tests.AddTwoItems@791f145a]" started-at="2023-03-31T12:04:41 IST" name="close_browser" finished-at="2023-03-31T12:04:41 IST" duration-ms="344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- Tests.AddTwoItems -->
-      <class name="Tests.AddSingleItem">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-31T12:02:55 IST" name="setUp" finished-at="2023-03-31T12:03:10 IST" duration-ms="15052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-31T12:03:34 IST" name="login" finished-at="2023-03-31T12:03:37 IST" duration-ms="2847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="addItems()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-31T12:03:37 IST" name="addItems" finished-at="2023-03-31T12:04:02 IST" duration-ms="24716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItems -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:Tests.AddSingleItem@5824a83d]" started-at="2023-03-31T12:04:40 IST" name="close_browser" finished-at="2023-03-31T12:04:41 IST" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- Tests.AddSingleItem -->
+    <test started-at="2023-03-31T12:29:30 IST" name="Default test" finished-at="2023-03-31T12:29:53 IST" duration-ms="23059">
       <class name="Tests.SearchItem">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.SearchItem@38cee291]" started-at="2023-03-31T12:03:22 IST" name="setUp" finished-at="2023-03-31T12:03:34 IST" duration-ms="11513" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.SearchItem@52719fb6]" started-at="2023-03-31T12:29:30 IST" name="setUp" finished-at="2023-03-31T12:29:44 IST" duration-ms="14037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="search()[pri:0, instance:Tests.SearchItem@38cee291]" started-at="2023-03-31T12:04:32 IST" name="search" finished-at="2023-03-31T12:04:40 IST" duration-ms="8465" status="PASS">
+        <test-method signature="search()[pri:0, instance:Tests.SearchItem@52719fb6]" started-at="2023-03-31T12:29:44 IST" name="search" finished-at="2023-03-31T12:29:53 IST" duration-ms="8675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:Tests.SearchItem@38cee291]" started-at="2023-03-31T12:04:41 IST" name="close_browser" finished-at="2023-03-31T12:04:41 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Tests.SearchItem@52719fb6]" started-at="2023-03-31T12:29:53 IST" name="close_browser" finished-at="2023-03-31T12:29:53 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
       </class> <!-- Tests.SearchItem -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

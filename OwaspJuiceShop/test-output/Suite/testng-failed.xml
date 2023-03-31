@@ -3,22 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Tests.AddTwoItems">
+      <class name="Tests.SearchItem">
         <methods>
-          <include name="close_browser"/>
+          <include name="search"/>
           <include name="setUp"/>
-          <include name="addItems"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- Tests.AddTwoItems -->
-      <class name="Tests.AddSingleItem">
-        <methods>
-          <include name="addItems"/>
           <include name="close_browser"/>
-          <include name="login"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- Tests.AddSingleItem -->
+      </class> <!-- Tests.SearchItem -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
